@@ -25,4 +25,11 @@ public class SherlockAndAnagrams {
         }
         return res;
     }
+
+    private static String sortString(String s) {
+        char[] array = s.toCharArray();
+        Arrays.sort(array);
+        String res = new String(array);
+        return res;
+    }
 }
